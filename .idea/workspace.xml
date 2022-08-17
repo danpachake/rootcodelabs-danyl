@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="580e1763-6a79-4d5f-9edf-13a5883f7913" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rootcodelabs/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,9 +44,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LessonThree">
-    <configuration name="HelloRootcodelabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.java.HelloRootcodelabs" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rootcodelabs.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Dates">
+    <configuration name="Dates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.java.Dates" />
       <module name="Rootcodelabs-Java" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.java.firstlesson.LessonOne" />
+    <configuration name="HelloSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.selenium.HelloSelenium" />
       <module name="Rootcodelabs-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rootcodelabs.java.firstlesson.*" />
+          <option name="PATTERN" value="com.rootcodelabs.selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.java.firstlesson.LessonTwo" />
+    <configuration name="TestBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.java.secondlesson.TestBrowser" />
       <module name="Rootcodelabs-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rootcodelabs.java.firstlesson.*" />
+          <option name="PATTERN" value="com.rootcodelabs.java.secondlesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.rootcodelabs.util.UtilTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rootcodelabs.util.UtilTester" />
+      <module name="Rootcodelabs-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rootcodelabs.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dates" />
+        <item itemvalue="Application.com.rootcodelabs.util.UtilTester" />
+        <item itemvalue="Application.HelloSelenium" />
+        <item itemvalue="Application.TestBrowser" />
         <item itemvalue="Application.LessonThree" />
-        <item itemvalue="Application.LessonTwo" />
-        <item itemvalue="Application.LessonOne" />
-        <item itemvalue="Application.HelloRootcodelabs" />
       </list>
     </recent_temporary>
   </component>
@@ -130,5 +146,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/rootcodelabs/selenium/HelloSelenium.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

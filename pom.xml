@@ -15,6 +15,7 @@
         <webdrivermanager.version>5.2.1</webdrivermanager.version>
         <assertj-core.version>3.23.1</assertj-core.version>
         <javafaker.version>1.0.2</javafaker.version>
+        <testng.version>7.6.0</testng.version>
     </properties>
 
     <dependencies>
@@ -46,6 +47,14 @@
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>${javafaker.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
         </dependency>
 
 
